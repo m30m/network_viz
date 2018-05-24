@@ -40,3 +40,7 @@ html = visualize(clusters, size=900)
 with open('output.html','w') as output_file:
     output_file.write(html)
 ```
+
+# Screenshots
+
+![Screenshot](screenshots/network.png?raw=true "Sample Visualization output")
