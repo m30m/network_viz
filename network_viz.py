@@ -17,6 +17,7 @@ def __prepare_json(edges):
         nodes.append(u)
         nodes.append(v)
         links.append({"target": u, "source": v, "strength": float(w)})
+    nodes = list(set(nodes))
     nodes_json = []
     for node in nodes:
         nodes_json.append({"id": node, "group": 0, "label": node, "level": 1})
