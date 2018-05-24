@@ -7,7 +7,7 @@ A tiny python library for visualizing word networks
 You can install this package directly from github using the following command:
 
 ```sh
-pip3 install git+git://github.com/m30m/network_viz.git
+pip3 install git+https://github.com/m30m/network_viz.git
 ```
 
 # Usage
