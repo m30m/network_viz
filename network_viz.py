@@ -21,8 +21,8 @@ def __prepare_json(edges):
     nodes_json = []
     for node in nodes:
         nodes_json.append({"id": node, "group": 0, "label": node, "level": 1})
-    nodes_json = json.dumps(nodes_json)
-    links_json = json.dumps(links)
+    nodes_json = json.dumps(nodes_json, ensure_ascii=False)
+    links_json = json.dumps(links, ensure_ascii=False)
     return nodes_json, links_json
 
 
